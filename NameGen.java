@@ -5,6 +5,17 @@
 
 package nmsNomenclature;
 import java.io.*;
+import java.awt.BorderLayout;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
+import java.awt.Font;
+import java.awt.event.ActionListener;
+import java.util.Random;
+import java.util.Scanner;
+import java.awt.event.ActionEvent;
+import javax.swing.JTextArea;
 public class NameGen extends JFrame {
 
 	private JPanel contentPane;
